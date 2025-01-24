@@ -27,7 +27,7 @@ export async function requestOpenai(req: NextRequest) {
     authHeaderName = "Authorization";
   }
 
-  let path = `${req.nextUrl.pathname}`.replaceAll("/api/openai/", "");
+  let path = `${req.nextUrl.pathname}`.replaceAll("api.chatgptsb.com", "");
 
   let baseUrl =
     (isAzure ? serverConfig.azureUrl : serverConfig.baseUrl) || OPENAI_BASE_URL;
