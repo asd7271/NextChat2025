@@ -316,7 +316,7 @@ const cn = {
         Label: "",
         SubTitle:
           " ",
-        //ChatNow: "",
+        ChatNow: "",
       },
       AccessCode: {
         Title: "访问密码",
